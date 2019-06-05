@@ -48,7 +48,7 @@ public class DogController
 			@PathVariable
 					long id)
 	{
-		logger.trace("/dogs/{id}" + id + " accessed");
+		logger.trace("/dogs/" + id + " accessed");
 		MessageDetail message = new MessageDetail("/dogs/{id} accessed", 7, false);
 		rt.convertAndSend(DogsinitialApplication.QUEUE_NAME_LOW, message);
 

@@ -16,7 +16,7 @@ import org.springframework.amqp.core.Binding;
 @SpringBootApplication
 public class DogsinitialApplication
 {
-    public static final String EXCHANGE_NAME = "LambaServer";
+    public static final String EXCHANGE_NAME = "LambdaServer";
     public static final String QUEUE_NAME_LOW = "LowPriorityQueue";
     public static final String QUEUE_NAME_HIGH = "HighPriorityQueue";
 
