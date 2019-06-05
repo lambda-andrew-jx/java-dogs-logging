@@ -1,6 +1,7 @@
 package com.lambdaschool.dogsinitial.model;
 
 import java.io.Serializable;
+import java.util.Date;
 
 public class MessageDetail implements Serializable
 {
@@ -52,6 +53,6 @@ public class MessageDetail implements Serializable
 	@Override
 	public String toString()
 	{
-		return "MessageDetail{" + "text='" + text + '\'' + ", priority=" + priority + ", secret=" + secret + '}';
+		return "MessageDetail{" + "text='" + text + new Date() + '\'' + ", priority=" + priority + ", secret=" + secret + '}';
 	}
 }
