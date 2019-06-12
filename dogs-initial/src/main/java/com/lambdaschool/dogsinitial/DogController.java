@@ -1,5 +1,7 @@
 package com.lambdaschool.dogsinitial;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,6 +15,7 @@ import java.util.ArrayList;
 @RequestMapping("/dogs")
 public class DogController
 {
+    private static final Logger logger = LoggerFactory.getLogger(DogController.class);
     // localhost:8080/dogs/dogs
     @GetMapping(value = "/dogs")
     public ResponseEntity<?> getAllDogs()
