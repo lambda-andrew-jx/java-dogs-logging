@@ -1,5 +1,6 @@
 package com.lambdaschool.dogsinitial;
 
-public interface CheckDog {
+public interface CheckDog
+{
     boolean test(Dog d);
 }
