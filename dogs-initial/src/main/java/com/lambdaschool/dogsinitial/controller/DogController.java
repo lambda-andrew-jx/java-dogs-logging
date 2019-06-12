@@ -1,5 +1,7 @@
-package com.lambdaschool.dogsinitial;
+package com.lambdaschool.dogsinitial.controller;
 
+import com.lambdaschool.dogsinitial.model.Dog;
+import com.lambdaschool.dogsinitial.DogsinitialApplication;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
