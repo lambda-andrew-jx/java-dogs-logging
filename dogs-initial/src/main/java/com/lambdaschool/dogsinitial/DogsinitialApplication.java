@@ -1,3 +1,4 @@
+
 package com.lambdaschool.dogsinitial;
 
 import org.springframework.boot.SpringApplication;
@@ -15,4 +16,3 @@ public class DogsinitialApplication
     }
 
 }
-
